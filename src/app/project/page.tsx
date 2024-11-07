@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import { CiLocationArrow1 } from "react-icons/ci";
 import Project1 from "../../../public/project-1.png";
-// import Project2 from "../../../public/project-22.png";
 import Project3 from "../../../public/project-33.png";
 
 const Page = () => {
@@ -52,7 +51,7 @@ const Page = () => {
                     <Image
                       alt="gallery"
                       className="w-full bg-cover h-96 transition-opacity duration-300 ease-in-out group-hover:opacity-25"
-                      src="/project-22.png"
+                      src="/project-22.PNG"
                       height={500}
                       width={500}
                     />
